@@ -1,0 +1,7 @@
+[:errorMessage :syntaxErrorStart :syntaxErrorEnd |
+	^ #{
+		'errorMessage' -> errorMessage,
+		'syntaxErrorStart' -> syntaxErrorStart,
+		'syntaxErrorEnd' -> syntaxErrorEnd
+	}.
+]
