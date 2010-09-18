@@ -1,0 +1,3 @@
+frame := view frame.
+(NSColor colorWithCalibratedRed:0.7 green:0.8 blue:1.0 alpha:1.0) setFill.
+(NSBezierPath bezierPathWithRect:frame) fill.

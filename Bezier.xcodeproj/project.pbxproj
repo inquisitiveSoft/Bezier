@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A0FE46C10FFE9E7005D5475 /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0FE46B10FFE9E7005D5475 /* libicucore.A.dylib */; };
+		4A2AE409123D9A7A00A6B1E3 /* Bezier.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4A2AE408123D9A7A00A6B1E3 /* Bezier.icns */; };
 		4A61149D1214052A0084D2B4 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A61149C1214052A0084D2B4 /* RegexKitLite.m */; };
 		4A6114B0121405630084D2B4 /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6114AF121405630084D2B4 /* FScript.framework */; };
 		4A6114DB1214056A0084D2B4 /* FScript.framework in Copy Framework */ = {isa = PBXBuildFile; fileRef = 4A6114AF121405630084D2B4 /* FScript.framework */; };
@@ -50,6 +51,7 @@
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		4A0FE46B10FFE9E7005D5475 /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = usr/lib/libicucore.A.dylib; sourceTree = SDKROOT; };
 		4A0FE50110FFEDE6005D5475 /* Bezier.tmproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Bezier.tmproj; sourceTree = "<group>"; };
+		4A2AE408123D9A7A00A6B1E3 /* Bezier.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Bezier.icns; path = Resources/Bezier.icns; sourceTree = "<group>"; };
 		4A61149B1214052A0084D2B4 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = "Other Peoples Code/RegexKitLite/RegexKitLite.h"; sourceTree = "<group>"; };
 		4A61149C1214052A0084D2B4 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegexKitLite.m; path = "Other Peoples Code/RegexKitLite/RegexKitLite.m"; sourceTree = "<group>"; };
 		4A6114AF121405630084D2B4 /* FScript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FScript.framework; path = "Other Peoples Code/F-Script/FScript.framework"; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4A2AE408123D9A7A00A6B1E3 /* Bezier.icns */,
 				4A6115C8121406660084D2B4 /* Console Template.html */,
 				4A6115C9121406660084D2B4 /* Error.block */,
 				4A6115CC1214066D0084D2B4 /* Bezier Document.xib */,
@@ -233,7 +236,6 @@
 			isa = PBXProject;
 			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Bezier" */;
 			compatibilityVersion = "Xcode 3.1";
-			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en,
@@ -259,6 +261,7 @@
 				4A6115D51214066D0084D2B4 /* Credits.rtf in Resources */,
 				4A6115D61214066D0084D2B4 /* InfoPlist.strings in Resources */,
 				4A6115D71214066D0084D2B4 /* Main Menu.xib in Resources */,
+				4A2AE409123D9A7A00A6B1E3 /* Bezier.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

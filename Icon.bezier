@@ -1,0 +1,24 @@
+inset := 100.
+width := view frame extent x - (inset * 2).
+height := view frame extent y - (inset * 2)/1.6.
+
+
+(NSColor colorWithDeviceWhite:0.65 alpha:1) setStroke.
+
+horizontalCentre := inset + (width/2).
+
+"Even"
+NSColor blueColor setStroke.
+NSBezierPath setDefaultLineWidth:2.0.
+
+bulge := 100.
+bias := 1.
+differentiation := 0.25.
+
+path := NSBezierPath bezierPath.
+path moveToPoint:(inset + width/2 - 50) <> (inset + height).
+path curveToPoint:(inset + width/ 2 + 100) <> (inset + height -50)
+  	controlPoint1:(inset + width/2+ 30) <> (inset + height + 10)
+	  controlPoint2:(inset + width/2) <> (inset + height - 40).
+
+path stroke.

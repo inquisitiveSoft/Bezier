@@ -4,6 +4,7 @@ height := view frame extent y - (inset * 2)/1.6.
 
 
 (NSColor colorWithDeviceWhite:0.65 alpha:1) setStroke.
+
 "Draw background lines"
 path := NSBezierPath bezierPath.
 path moveToPoint:inset<>inset.

@@ -2,97 +2,95 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>currentDocument</key>
+	<string>Relevances.bezier</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>children</key>
 			<array>
 				<dict>
-					<key>filename</key>
-					<string>Relevances.bezier</string>
-					<key>lastUsed</key>
-					<date>2010-08-12T10:28:01Z</date>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>filename</key>
+							<string>Relevances.bezier</string>
+							<key>lastUsed</key>
+							<date>2010-08-12T12:05:41Z</date>
+							<key>selected</key>
+							<true/>
+						</dict>
+					</array>
+					<key>expanded</key>
+					<true/>
+					<key>name</key>
+					<string>Documents</string>
 				</dict>
 				<dict>
 					<key>children</key>
 					<array>
 						<dict>
 							<key>filename</key>
-							<string>AJKBezierAppController.h</string>
+							<string>Core/NSString+EscapeHTMLCharacters.h</string>
 						</dict>
 						<dict>
 							<key>filename</key>
-							<string>AJKBezierAppController.m</string>
-						</dict>
-						<dict>
-							<key>filename</key>
-							<string>AJKBezierDocument.h</string>
-						</dict>
-						<dict>
-							<key>filename</key>
-							<string>AJKBezierDocument.m</string>
-						</dict>
-						<dict>
-							<key>filename</key>
-							<string>AJKFileSystemObserver.h</string>
-						</dict>
-						<dict>
-							<key>filename</key>
-							<string>AJKFileSystemObserver.m</string>
-						</dict>
-						<dict>
-							<key>filename</key>
-							<string>AJKFileSystemObserverDelegate.h</string>
-						</dict>
-						<dict>
-							<key>filename</key>
-							<string>BezierView.h</string>
+							<string>Core/NSString+EscapeHTMLCharacters.m</string>
 							<key>lastUsed</key>
-							<date>2010-08-12T10:28:32Z</date>
-							<key>selected</key>
-							<true/>
+							<date>2010-08-12T11:48:42Z</date>
+						</dict>
+					</array>
+					<key>expanded</key>
+					<true/>
+					<key>name</key>
+					<string>Categories</string>
+				</dict>
+				<dict>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>filename</key>
+							<string>Core/AJKFileSystemObserver.h</string>
 						</dict>
 						<dict>
 							<key>filename</key>
-							<string>BezierView.m</string>
-							<key>lastUsed</key>
-							<date>2010-08-12T10:28:32Z</date>
+							<string>Core/AJKFileSystemObserver.m</string>
 						</dict>
 						<dict>
 							<key>filename</key>
-							<string>NSString+EscapeHTMLCharacters.h</string>
+							<string>Core/AJKFileSystemObserverDelegate.h</string>
 						</dict>
 						<dict>
 							<key>filename</key>
-							<string>NSString+EscapeHTMLCharacters.m</string>
+							<string>Core/AJKPlugin.h</string>
 						</dict>
 						<dict>
 							<key>filename</key>
-							<string>qLog.h</string>
+							<string>Core/AJKPlugin.m</string>
 						</dict>
 						<dict>
 							<key>filename</key>
-							<string>qLog.m</string>
+							<string>Core/BezierAppController.h</string>
 						</dict>
 						<dict>
 							<key>filename</key>
-							<string>AJKPlugin.h</string>
+							<string>Core/BezierAppController.m</string>
 						</dict>
 						<dict>
 							<key>filename</key>
-							<string>AJKPlugin.m</string>
+							<string>Core/BezierDocument.h</string>
 						</dict>
 						<dict>
 							<key>filename</key>
-							<string>RegexKitLite.h</string>
-							<key>lastUsed</key>
-							<date>2010-08-12T10:28:29Z</date>
+							<string>Core/BezierDocument.m</string>
 						</dict>
 						<dict>
 							<key>filename</key>
-							<string>RegexKitLite.m</string>
-							<key>lastUsed</key>
-							<date>2010-08-12T10:28:31Z</date>
+							<string>Core/BezierView.h</string>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>Core/BezierView.m</string>
 						</dict>
 					</array>
 					<key>expanded</key>
@@ -105,29 +103,23 @@
 					<array>
 						<dict>
 							<key>filename</key>
-							<string>Bezier_Prefix.pch</string>
+							<string>Resources/Console Template.html</string>
 						</dict>
 						<dict>
 							<key>filename</key>
-							<string>Console Template.html</string>
-							<key>lastUsed</key>
-							<date>2010-08-12T01:40:58Z</date>
-						</dict>
-						<dict>
-							<key>filename</key>
-							<string>Error.block</string>
-							<key>lastUsed</key>
-							<date>2010-08-12T01:54:27Z</date>
-						</dict>
-						<dict>
-							<key>filename</key>
-							<string>main.m</string>
+							<string>Resources/Error.block</string>
 						</dict>
 					</array>
 					<key>expanded</key>
 					<true/>
 					<key>name</key>
 					<string>Other Sources</string>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>README.markdown</string>
+					<key>lastUsed</key>
+					<date>2010-08-12T12:05:41Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -140,63 +132,87 @@
 	<integer>336</integer>
 	<key>metaData</key>
 	<dict>
-		<key>BezierView.h</key>
+		<key>Core/NSString+EscapeHTMLCharacters.m</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>BezierView.m</key>
+		<key>README.markdown</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
+				<integer>200</integer>
+				<key>line</key>
 				<integer>11</integer>
-				<key>line</key>
-				<integer>16</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>219</integer>
+				<key>line</key>
+				<integer>11</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>200</integer>
+				<key>line</key>
+				<integer>11</integer>
+			</dict>
 		</dict>
-		<key>RegexKitLite.h</key>
+		<key>Relevances.bezier</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>8</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>35</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>RegexKitLite.m</key>
-		<dict>
-			<key>caret</key>
+			<integer>1</integer>
+			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>19</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>35</integer>
 			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>8</integer>
+				<key>line</key>
+				<integer>35</integer>
+			</dict>
 		</dict>
 	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>Core/NSString+EscapeHTMLCharacters.m</string>
+		<string>README.markdown</string>
+		<string>Relevances.bezier</string>
+	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
