@@ -19,4 +19,11 @@
 	}
 }
 
+- (BOOL)isFlipped
+{
+	return TRUE;
+}
+
+
+
 @end
